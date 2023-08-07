@@ -15,7 +15,7 @@ export const Page = () => {
         onCreateAccount={() => setUser({ name: 'Jane Doe' })}
       />
 
-      <section className="storybook-page">
+      <section className="storybook-page font-montserrat">
         <h2>Pages in Storybook</h2>
         <p>
           We recommend building UIs with a{' '}
@@ -24,7 +24,7 @@ export const Page = () => {
           </a>{' '}
           process starting with atomic components and ending with pages.
         </p>
-        <p>
+        <p className="font-montserrat">
           Render pages with mock data. This makes it easy to build and review page states without
           needing to navigate to them in your app. Here are some handy patterns for managing page
           data in Storybook:
