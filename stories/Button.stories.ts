@@ -24,21 +24,21 @@ type Story = StoryObj<typeof Button>
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Primary: Story = {
   args: {
-    type: 'Primary',
+    buttonType: 'Primary',
     label: 'Button',
   },
 };
 
 export const Secondary: Story = {
   args: {
-    type: 'Secondary',
+    buttonType: 'Secondary',
     label: 'Button',
   },
 };
 
 export const Tertiary: Story = {
   args: {
-    type: 'Tertiary',
+    buttonType: 'Tertiary',
     label: 'Button',
   },
 };

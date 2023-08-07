@@ -33,13 +33,13 @@ const BASE_BUTTON_CLASSES =
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ type = 'primary', size = 'medium', label, ...props }) => {
+export const Button = ({ buttonType = 'primary', size = 'medium', label, ...props }) => {
   const computedClasses = useMemo(() => {
-    const modeClass = getModeClasses(type);
+    const modeClass = getModeClasses(buttonType);
     const sizeClass = getSizeClasses(size);
 
     return [modeClass, sizeClass].join(' ');
-  }, [type, size]);
+  }, [buttonType, size]);
 
   return (
     <button type="button" className={`${BASE_BUTTON_CLASSES} ${computedClasses}`} {...props}>
