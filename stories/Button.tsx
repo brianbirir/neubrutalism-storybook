@@ -19,9 +19,9 @@ const getModeClasses = (buttonType: string) => {
     case 'Primary':
       return 'text-white bg-slate-900 border-slate-900 dark:bg-pink-700 dark:border-pink-700'
     case 'Secondary':
-      return 'text-slate-900 bg-yellow-400 border-2 border-b-4 border-slate-900 dark:text-white dark:border-white'
+      return 'text-slate-900 bg-yellow-400 border-b-4 border-slate-900 dark:text-white dark:border-white'
     case 'Tertiary':
-      return 'text-white bg-blue-700 border-2 border-blue-700 dark:text-white dark:border-white'
+      return 'text-white bg-blue-700 border-blue-700 dark:text-white dark:border-white'
     default:
       return 'text-white bg-slate-900 border-slate-900 dark:bg-pink-700 dark:border-pink-700';
   }
