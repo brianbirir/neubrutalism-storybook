@@ -19,8 +19,8 @@ export default inputMeta;
 
 type Story = StoryObj<typeof Input>
 
-export const General: Story = {
+export const BasicInput: Story = {
   args: {
-    placeholder: 'General text field',
+    placeholder: 'Basic input field',
   },
 };
